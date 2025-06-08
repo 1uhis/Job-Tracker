@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Build output
+client/.next/
+client/out/
+client/build/
+server/dist/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Logs or temp
+*.log
+*.tmp

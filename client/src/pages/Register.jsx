@@ -15,7 +15,7 @@ function Register() {
       localStorage.setItem('token', res.data.token);
       navigate('/dashboard');
     } catch (err) {
-      alert('注册失败：' + (err.response?.data?.msg || '请重试'));
+      alert('Registration failed：' + (err.response?.data?.msg || 'Please try again.'));
     }
   };
 
